@@ -1,8 +1,6 @@
 pipeline:
   build:
-    image: shouldbee/coffeescript
+    image: node:10.8.0 
     commands:
-    - npm install
-    - coffee --complie - lib/ src/
-    - cp lib/config.sample.js lib/config/js
-    - npm test
+    - yarn
+    - yarn test

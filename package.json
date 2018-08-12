@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "test":"mocha"
+  },
   "dependencies": {
     "mocha": "^5.2.0",
     "should": "^13.2.3"
