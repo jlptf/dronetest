@@ -1,6 +1,7 @@
-build:
-  image: shouldbee/coffeescript
-  commands:
+pipeline:
+  build:
+    image: shouldbee/coffeescript
+    commands:
     - npm install
     - coffee --complie - lib/ src/
     - cp lib/config.sample.js lib/config/js
